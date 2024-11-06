@@ -34,8 +34,8 @@ app.use("/owners", ownersRoutes);
 app.use("/users", usersRoutes);
 app.use("/products", productsRoutes);
 app.use("/", indexRouter);
+app.set("views", path.join(__dirname, "views"));
 
 app.set("view engine", "ejs");
-
 
 app.listen(PORT);
