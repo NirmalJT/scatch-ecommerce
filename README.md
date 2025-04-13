@@ -45,7 +45,7 @@ git clone https://github.com/NirmalJT/scatch-ecommerce.git
 npm install
 
 # run the project
-npm run dev
+nodemon app.js
 
 ---
 
