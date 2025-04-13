@@ -39,7 +39,7 @@ Scatch is a simple full-stack e-commerce web app for selling bags. Built using *
 ## 🚀 How to Run (For Projects)
 ```bash
 # clone the repo
-git clone https://github.com/your-username/repo-name.git
+git clone https://github.com/NirmalJT/scatch-ecommerce.git
 
 # install dependencies
 npm install
