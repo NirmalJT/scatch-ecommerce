@@ -1,17 +1,41 @@
-# 
+# 👜 Scatch – E-Commerce Bag Store
 
 ## 📌 Description
-Short paragraph about the project or what you're learning.
+Scatch is a simple full-stack e-commerce web app for selling bags. Built using **Node.js**, **EJS**, and **Tailwind CSS**, it includes basic product management and user purchase functionality. The app supports admin-only product control and user-side shopping capabilities.
 
-## 🧠 What I Learned / Doing
-- Point 1
-- Point 2
+---
 
-## 🛠️ Technologies Used
-- React
+## 🚀 Features
+
+### 🛍️ User Side
+- View available bags
+- Add products to cart
+- Purchase bags securely
+
+### 🛠️ Admin Side 
+- Add new bags/products
+- Manage product details
+
+### 🔐 Authentication & Security
+- Admin & user login system
+- Passwords hashed with **bcrypt**
+- Cookies used for session management
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- HTML, Tailwind CSS
 - JavaScript
-- Node.js (if applicable)
+- EJS (Templating Engine)
 
+### Backend
+- Node.js
+- Express.js
+- bcrypt (Password hashing)
+- cookie-parser
+- MongoDB
 ## 🚀 How to Run (For Projects)
 ```bash
 # clone the repo
@@ -22,3 +46,6 @@ npm install
 
 # run the project
 npm run dev
+
+---
+
